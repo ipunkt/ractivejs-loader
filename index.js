@@ -1,4 +1,4 @@
-var Ractive = require('Ractive');
+var Ractive = require('ractive');
 var rcu = require('rcu');
 
 rcu.init(Ractive);
