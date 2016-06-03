@@ -20,7 +20,7 @@ module.exports = function(source) {
     }
 
     if (component.css) {
-        script.push('module.exports.template = ' + component.css);
+        script.push('module.exports.css = ' + component.css);
     }
 
     return script.join(';\n\n');
