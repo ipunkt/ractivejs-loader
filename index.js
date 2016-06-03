@@ -4,7 +4,7 @@ var rcu = require('rcu');
 rcu.init(Ractive);
 
 module.exports = function(source) {
-    this.cachable();
+    this.cacheable();
 
     var component = rcu.parse(source);
 
