@@ -16,7 +16,7 @@ module.exports = function(source) {
     }
 
     if (component.template) {
-        script.push('module.exports.template = ' + JSON.stringify(component.script));
+        script.push('module.exports.template = ' + JSON.stringify(component.template));
     }
 
     if (component.css) {
