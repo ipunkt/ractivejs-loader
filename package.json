@@ -4,6 +4,6 @@
   "description": "ractive.js template loader for webpack",
   "main": "index.js",
   "devDependencies": {
-    "rcu": "git://github.com/ractivejs/rcu#master"
+    "rcu": "git://github.com/ractivejs/rcu.git#master"
   }
 }
